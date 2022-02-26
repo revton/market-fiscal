@@ -1,0 +1,19 @@
+[tool.black]
+line-length = 79
+
+[tool.poetry]
+name = 'market-fiscal'
+version = '0.1.0'
+description = 'Arquivo para leitura de imagem de documento fiscal'
+authors = ['Revton Braga <revtonbr@gmail.com>']
+
+[tool.poetry.dependencies]
+python = '^3.8'
+Flask = '^2.0.2'
+pytesseract = '^0.3.8'
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ['poetry-core>=1.0.0']
+build-backend = 'poetry.core.masonry.api'

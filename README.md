@@ -14,7 +14,7 @@ echo $TESSDATA_PREFIX
 
 - Definir variável de ambiente
 ```sh
-echo 'export TESSDATA_PREFIX="/Users/revton/homebrew/share/tessdata/"' >> ~/.zshenv
+echo 'export TESSDATA_PREFIX="/home/linuxbrew/.linuxbrew/share/tessdata"' >> ~/.zshenv
 source ~/.zshenv
 ```
 
@@ -24,7 +24,11 @@ echo $TESSDATA_PREFIX
 ```
 
 
-
+## Linter
+- Black
+````bash
+black --skip-string-normalization .
+````
 
 
 
